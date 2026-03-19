@@ -1,10 +1,6 @@
-/**
- * 🩺 DISEASE RISK PREDICTOR LOGIC
- * Collects data from the form, sends it to the Flask backend,
- * and redirects the user to the results page.
- */
+
 async function predictDisease() {
-    // 1. Gather input values from the form in predict.html
+    
     const data = {
         age: document.querySelector('[name="age"]').value,
         bp: document.querySelector('[name="bp"]').value,
@@ -14,13 +10,13 @@ async function predictDisease() {
         activity: document.querySelector('[name="activity"]').value
     };
 
-    // 2. Validate that all fields are filled
+   
     if (!data.age || !data.bp || !data.sugar || !data.bmi || !data.smoking || !data.activity) {
         alert("Please fill in all health metrics before analyzing.");
         return;
     }
 
-    // 3. Send data to the Flask route /predict-disease
+   
     try {
         const res = await fetch('/predict-disease', {
             method: 'POST',
@@ -44,16 +40,12 @@ async function predictDisease() {
     }
 }
 
-/**
- * 📄 MEDICAL REPORT SIMPLIFIER LOGIC
- * Handles the text area and file upload for medical reports.
- */
+
 async function simplify() {
     const reportText = document.getElementById("report").value;
-    const fileInput = document.getElementById("file-upload"); // Matches the new ID in simplify.html
+    const fileInput = document.getElementById("file-upload"); 
     const btn = document.querySelector(".analyze-btn");
     
-    // 1. Validation: Check if we have either text OR a file
     const hasFile = fileInput && fileInput.files.length > 0;
     
     if (!reportText && !hasFile) { 
@@ -61,33 +53,33 @@ async function simplify() {
         return; 
     }
 
-    // 2. UI Feedback
+    
     btn.innerText = "Analyzing Report... Please wait";
     btn.disabled = true;
 
-    // 3. Prepare Data
+    
     const formData = new FormData();
     
     if (hasFile) {
-        // If there's a file, we send the file object
+       
         formData.append("file", fileInput.files[0]);
     } else {
-        // Otherwise, we send the pasted text
+        
         formData.append("text", reportText);
     }
 
     try {
-        // 4. Send to Flask
+       
         const res = await fetch('/simplify-report', {
             method: 'POST',
-            body: formData // Fetch handles the Content-Type automatically for FormData
+            body: formData 
         });
         
         if (!res.ok) throw new Error("Server had an issue processing the report.");
         
         const result = await res.json();
         
-        // 5. Save and Redirect
+        
         console.log("AI Response Received:", result);
         localStorage.setItem('simplifiedReport', JSON.stringify(result));
         
