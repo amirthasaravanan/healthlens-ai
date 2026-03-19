@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="/static/style.css">
+    <title>Simplify Report</title>
+</head>
+<body>
+<div class="header">
+    <h1 class="logo">🏥 HealthLens AI</h1>
+    <p class="main-desc">
+        <span class="dot"></span>
+        ◕ Transform complex medical reports into simple insights ◕
+        <span class="dot"></span>
+        <br>
+        <span class="dot"></span>
+        ◕ Understand your health without medical jargon ◕
+        <span class="dot"></span>
+    </p>
+</div>
+
+<div class="form-container">
+    <div class="form-box-glass">
+        <textarea id="report" placeholder="Paste your complex medical report text here..."></textarea>
+        
+        <div class="file-upload-section">
+    <label for="file-upload" class="file-label">Or upload a PDF file:</label>
+    <input type="file" id="file-upload" accept=".pdf">
+</div>
+
+        <button type="button" class="analyze-btn" onclick="simplify()">Simplify the Report</button>
+    </div>
+</div>
+
+<p class="disclaimer">This tool provides general health insights and is not a substitute for professional medical advice.</p>
+
+<script src="/static/script.js"></script>
+</body>
+</html>
+
