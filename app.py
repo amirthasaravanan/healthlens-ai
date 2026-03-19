@@ -5,7 +5,7 @@ import pypdf
 
 app = Flask(__name__)
 
-client = genai.Client(api_key="myapikey")
+client = genai.Client(api_key="myapikey") 
 
 
 safety_settings = [
