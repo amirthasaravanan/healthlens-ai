@@ -29,7 +29,7 @@
 </div>
 
 <script>
-    // 1. Get the data from memory
+    
     const rawData = localStorage.getItem('simplifiedReport');
     const contentDiv = document.getElementById('full-report-content');
 
@@ -39,7 +39,7 @@
         const data = JSON.parse(rawData);
         let htmlContent = "";
 
-        // --- SECTION 1: SIMPLE HUMAN SUMMARY ---
+        
         htmlContent += `
             <div style="background: #f0f7ff; color: #2c3e50; padding: 25px; border-radius: 15px; margin-bottom: 40px; border-left: 8px solid #3498db;">
                 <h3 style="margin-top:0; color: #2980b9;">👋 The Big Picture</h3>
@@ -47,7 +47,7 @@
             </div>
         `;
 
-        // --- SECTION 2: MEDICATION GUIDE (If found) ---
+        
         if (data.medication_guide && data.medication_guide.length > 0) {
             htmlContent += `
                 <div style="background: #fff5f5; padding: 25px; border-radius: 15px; margin-bottom: 40px; border: 1px solid #feb2b2;">
@@ -72,7 +72,7 @@
             `;
         }
 
-        // --- SECTION 3: COMPLEX TERMS (The Cards) ---
+        
         htmlContent += `<h3 style="color: #2c5364; border-bottom: 2px solid #eee; padding-bottom: 10px;">📖 Term Explanations</h3>`;
         data.term_explanations.forEach((item, index) => {
             htmlContent += `
@@ -91,7 +91,7 @@
             `;
         });
 
-        // --- SECTION 4: FRIENDLY SUGGESTIONS ---
+        
         if (data.general_suggestions && data.general_suggestions.length > 0) {
             htmlContent += `
                 <div style="background: #f0fff4; padding: 25px; border-radius: 15px; color: #22543d; margin-top: 30px; border: 1px solid #c6f6d5;">
