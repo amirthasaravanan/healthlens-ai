@@ -9,7 +9,7 @@ Additionally, it simplifies complex medical reports into clear and unde
 
 # Tech Stack 
 ### Frontend:  
-HTML, CSS. JavaScript (Custom UI)
+HTML, CSS, JavaScript (Custom UI)
          
 ### Backend:  
 Python Flask (Handles Application logic and processing)
