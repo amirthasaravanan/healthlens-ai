@@ -70,6 +70,12 @@ This is the key highlight of the project 💡
 
 - Upload a medical report (PDF/text)
 
+<img width="1907" height="1022" alt="image" src="https://github.com/user-attachments/assets/a247f846-a581-4810-8b8c-13b02234df01" />
+
+<img width="1907" height="1013" alt="image" src="https://github.com/user-attachments/assets/e11bc18c-84e9-4486-8c4e-4ab5dde70dd9" />
+
+
+
 ### 🤖 Powered by:
 
 Gemini AI API
@@ -96,11 +102,25 @@ The system:
 
 - Simplified summary of the report
 
+<img width="1882" height="1049" alt="image" src="https://github.com/user-attachments/assets/b9bc21ef-c906-4f13-ba29-ea4950680b54" />
+
+
 - Explanation of medical terms
+
+<img width="1883" height="900" alt="image" src="https://github.com/user-attachments/assets/51f9c621-2e13-4c30-a88d-509b1ddaf81e" />
+<img width="1891" height="544" alt="image" src="https://github.com/user-attachments/assets/7e5efd40-aa85-4658-b234-ca0f2a2acc35" />
+
+
 
 - Medication guidance
 
+<img width="1882" height="434" alt="image" src="https://github.com/user-attachments/assets/e9d164cc-6f06-4985-b0c6-ae53acd5dad6" />
+
+
 - Personalized health suggestions
+
+<img width="1888" height="890" alt="image" src="https://github.com/user-attachments/assets/99e9a197-39bb-4390-b215-23d1af5f7e20" />
+
 
 ## Our system identifies key clinical terms and translates them into insights for non-medical users.
 
