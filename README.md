@@ -64,9 +64,9 @@ Provides percentage probability of risk
 
 This is the key highlight of the project 💡
 
-### Users can:
+### Users can either:
 
-- Paste medical report text
+- Paste medical report text (or)
 
 - Upload a medical report (PDF/text)
 
