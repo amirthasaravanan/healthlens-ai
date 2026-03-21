@@ -12,6 +12,64 @@ medical users
 
 [![Live Demo](https://img.shields.io/badge/Live%20Demo-HealthLens%20AI-2ea44f?style=for-the-badge&logo=github&logoColor=white)](https://healthlens-ai-ub8m.onrender.com/)
 
+### 💡 Don’t have a medical report? Use the sample medical report below to test the app.
+```
+Medical Examination Report 
+
+Patient Name: John Doe  
+Age/Sex: 45/M  
+Date: 12-03-2026  
+Ref No: HL-2026-0312-045  
+
+Chief Complaints:
+Patient presents with complaints of intermittent chest discomfort over the past 2 weeks, associated with generalized fatigue and occasional episodes of lightheadedness. No history of syncope.
+
+Past Medical History:
+- No known history of diabetes mellitus
+- Borderline hypertension noted 1 year ago
+- Family history significant for coronary artery disease (father)
+
+Vital Parameters:
+BP: 142/92 mmHg  
+Pulse: 94 bpm (regular)  
+Respiratory Rate: 18/min  
+Temperature: Afebrile  
+
+Laboratory Investigations:
+
+Complete Blood Count (CBC):
+Hemoglobin: 13.2 g/dL  
+WBC Count: 7,800 /mm³  
+Platelets: 2.5 lakh /mm³  
+
+Biochemistry:
+Fasting Blood Glucose: 134 mg/dL  
+Postprandial Blood Glucose: 178 mg/dL  
+HbA1c: 6.8%  
+
+Lipid Profile:
+Total Cholesterol: 248 mg/dL  
+Triglycerides: 210 mg/dL  
+LDL Cholesterol: 162 mg/dL  
+HDL Cholesterol: 36 mg/dL  
+
+Renal Function:
+Serum Creatinine: 1.1 mg/dL  
+Blood Urea: 32 mg/dL  
+
+ECG Findings:
+Normal sinus rhythm with occasional premature ventricular contractions (PVCs). No acute ST-T changes.
+
+Clinical Impression:
+Findings suggest borderline uncontrolled hypertension with dyslipidemia and impaired glucose tolerance. Patient exhibits risk factors for atherosclerotic cardiovascular disease.
+
+Advice:
+Further evaluation with echocardiography and stress test recommended. Lifestyle modification advised. Pharmacological intervention may be considered based on follow-up.
+
+---
+Note: This is a simulated medical report generated for testing and demonstration purposes only.
+```
+
 <img width="1901" height="1024" alt="image" src="https://github.com/user-attachments/assets/9db0e339-03a2-4e50-8951-7e720400a669" />
 
 
