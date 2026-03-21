@@ -10,7 +10,7 @@ medical users
 
 - This provides a fast, accessible, and user-friendly alternative to existing complex healthcare systems
 
-[![Live Demo](https://img.shields.io/badge/Live%20Demo-HealthLens%20AI-2ea44f?style=for-the-badge&logo=github&logoColor=white)](https://healthlens-ai-ub8m.onrender.com/)
+  [![Live Demo](https://img.shields.io/badge/Live%20Demo-HealthLens%20AI-2ea44f?style=for-the-badge&logo=github&logoColor=white)](https://healthlens-ai-ub8m.onrender.com/)
 
 ### 💡 Don’t have a medical report? Use the sample medical report below to test the app.
 ```
