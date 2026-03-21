@@ -5,7 +5,7 @@ import pypdf
 import os
 
 app = Flask(__name__)
-app.config['UPLOAD_FOLDER'] = 'uploads'
+
 
 API_KEY = os.getenv("API_KEY")
 client = genai.Client(api_key=API_KEY) 
