@@ -82,3 +82,13 @@ form { padding: 30px; border-radius: 20px; background: rgba(148, 173, 180, 0.905
 .report-detail-section h3 {
     margin-bottom: 8px;
 }
+@media (max-width: 768px) {
+    .features-section {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .feature-card {
+        width: 90%;
+    }
+}
