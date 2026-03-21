@@ -2,10 +2,13 @@ from google import genai
 from flask import Flask, request, jsonify, render_template
 import json
 import pypdf
+import os
 
 app = Flask(__name__)
+app.config['UPLOAD_FOLDER'] = 'uploads'
 
-client = genai.Client(api_key="myapikey") 
+API_KEY = os.getenv("API_KEY")
+client = genai.Client(api_key=API_KEY) 
 
 
 safety_settings = [
