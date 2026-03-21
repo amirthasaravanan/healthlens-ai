@@ -10,6 +10,8 @@ medical users
 
 - This provides a fast, accessible, and user-friendly alternative to existing complex healthcare systems
 
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-HealthLens%20AI-2ea44f?style=for-the-badge&logo=github&logoColor=white)](https://healthlens-ai-ub8m.onrender.com/)
+
 <img width="1901" height="1024" alt="image" src="https://github.com/user-attachments/assets/9db0e339-03a2-4e50-8951-7e720400a669" />
 
 
