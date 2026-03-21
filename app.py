@@ -208,4 +208,4 @@ def simplified_report_view():
     return render_template('simplified_report.html')
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run()
