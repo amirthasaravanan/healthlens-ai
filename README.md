@@ -63,6 +63,12 @@ Normal sinus rhythm with occasional premature ventricular contractions (PVCs). N
 Clinical Impression:
 Findings suggest borderline uncontrolled hypertension with dyslipidemia and impaired glucose tolerance. Patient exhibits risk factors for atherosclerotic cardiovascular disease.
 
+Medications Prescribed:
+- Tab. Amlodipine 5 mg once daily (for blood pressure control)  
+- Tab. Atorvastatin 10 mg once daily at bedtime (for cholesterol management)  
+- Tab. Metformin 500 mg once daily after meals (for glucose control)  
+- Tab. Aspirin (Ecosprin) 75 mg once daily (antiplatelet therapy)
+
 Advice:
 Further evaluation with echocardiography and stress test recommended. Lifestyle modification advised. Pharmacological intervention may be considered based on follow-up.
 
